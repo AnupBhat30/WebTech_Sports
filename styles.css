@@ -140,6 +140,33 @@ footer p {
     max-width: 100%;
   
     height: auto;
+
+    border-radius: 10px;
   
   }
-  
+
+  #venues .venue-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+#venues .venue-list::-webkit-scrollbar {
+    display: none; /* Optional: Hide scrollbar for better aesthetics */
+}
+
+#venues .venue {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width as needed */
+    margin-right: 10px;
+    scroll-snap-align: start;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visuals */
+}
+
+#venues .venue img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Ensure the image has the same rounding as the container */
+}

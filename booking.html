@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="container">
+        <div class="booking-form">
+            <h2>DENGOA</h2>
+            <p>Ribandar</p>
+            <div class="karma-points">
+                Earn 3 karma points on every booking!
+            </div>
+            <form>
+                <label for="sports">Sports</label>
+                <select id="sports">
+                    <option value="football">⚽ Football</option>
+                </select>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" value="2024-07-30">
+
+                <label for="time">Start Time</label>
+                <select id="time">
+                    <option value="06:00">06:00 AM</option>
+                    <option value="06:30">06:30 AM</option>
+                    <option value="07:00">07:00 AM</option>
+                    <option value="07:30">07:30 AM</option>
+                    <option value="08:00">08:00 AM</option>
+                    <option value="08:30">08:30 AM</option>
+                    <option value="09:00">09:00 AM</option>
+                    <option value="09:30">09:30 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="13:00">01:00 PM</option>
+                    <option value="13:30">01:30 PM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="14:30">02:30 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                    <option value="15:30">03:30 PM</option>
+                    <option value="16:00">04:00 PM</option>
+                    <option value="16:30">04:30 PM</option>
+                    <option value="17:00">05:00 PM</option>
+                    <option value="17:30">05:30 PM</option>
+                    <option value="18:00">06:00 PM</option>
+                    <option value="18:30">06:30 PM</option>
+                    <option value="19:00">07:00 PM</option>
+                    <option value="19:30">07:30 PM</option>
+                    <option value="20:00">08:00 PM</option>
+                    <option value="20:30">08:30 PM</option>
+                    <option value="21:00">09:00 PM</option>
+                    <option value="21:30">09:30 PM</option>
+                    <option value="22:00">10:00 PM</option>
+                    <option value="22:30">10:30 PM</option>
+                    <option value="23:00">11:00 PM</option>
+                    <option value="23:30">11:30 PM</option>
+                </select>
+
+                <label for="duration">Duration</label>
+                <select id="duration">
+                    <option value="1">1 Hr</option>
+                    <option value="1.5">1 Hr 30 Min</option>
+                    <option value="2">2 Hr</option>
+                    <option value="2.5">2 Hr 30 Min</option>
+                    <option value="3">3 Hr</option>
+                    <option value="3.5">3 Hr 30 Min</option>
+                    <option value="4">4 Hr</option>
+                </select>
+
+
+                <label for="court">Court</label>
+                <select id="court">
+                    <option value="">--Select Court--</option>
+                    <!-- Add court options here -->
+                </select>
+
+                <button type="button" id="add-to-cart" disabled>Add To Cart</button>
+            </form>
+        </div>
+    </div>
+    <script src="booking.js"></script>
+</body>
+</html>
+<!--
